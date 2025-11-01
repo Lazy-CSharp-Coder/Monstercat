@@ -82,10 +82,11 @@ section {
 .hero {
   position: relative;
   flex-direction: row;
-  align-items: center;
+  align-items:flex-start;
   justify-content: center;
   gap: 35px;
   z-index: 10;
+  margin-top: 180px;
 }
 
 .backgroundImage {
@@ -96,7 +97,7 @@ section {
      */
      background-image: url("Icons/backgroudImage.png");
   background-size:contain;
-  background-position-y: -6t00px;
+  background-position-y: -600px;
   background-repeat: no-repeat;
   filter:blur(5px) brightness(38%);
 
@@ -137,7 +138,7 @@ section {
 .albumInfoDiv {
   justify-content: flex-start;
   flex-direction: column;
-
+  height:fit-content;
   gap:10px;
   
 }
