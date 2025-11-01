@@ -22,7 +22,7 @@
 
 body {
   margin: 0;
-  position:relative;
+  /* position:relative; */
 
  
   background-color: black;
@@ -84,13 +84,14 @@ section {
 
 
 }
-
+/* 
 .backgroundImage {
-  position : absolute;
+
   background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2F742779555441%2Fcover%3F676e729b-96af-442a-9780-66b154ba7109&width=1024');
   background-size: contain;
-  background-position-y: -350px;
-}
+top: 0;
+left: 0;
+} */
 
 .albumInfoDiv {
   justify-content: flex-start;
