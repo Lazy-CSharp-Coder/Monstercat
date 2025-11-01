@@ -45,6 +45,10 @@ li {
   gap: 5px;
 }
 
+.flex {
+  display: flex;
+}
+
 /* MAIN */
 
 section {
@@ -52,9 +56,14 @@ section {
 }
 
 .hero {
+
   flex-direction: row;
 }
 
+.albumInfoDiv {
+  flex-direction: column;
+  align-items: center;
+}
 
 /* FOOTER */
 
