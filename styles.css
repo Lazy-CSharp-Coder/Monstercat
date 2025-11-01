@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  background-color: gray;
 }
 
 /* HEADER */
@@ -14,17 +15,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 0 0; /* top right bottom left eks 10 15 15 10 - top/bottom - left/right */
+  padding: 20px 40px;
   background-color:transparent;
   height: 100px;
 }
 
-.logoheader {
+.logoHeader {
   width:50px;
 }
 
 .hamburgerIcon {
-  width: 50px;
+  width: 32px;
 }
 
 .menu {
@@ -49,6 +50,11 @@ li {
 section {
   height: 100vh;
 }
+
+.hero {
+  flex-direction: row;
+}
+
 
 /* FOOTER */
 
