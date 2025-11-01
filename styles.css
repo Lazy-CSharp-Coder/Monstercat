@@ -20,7 +20,11 @@ header {
 }
 
 .logoheader {
-  padding: 28px;
+  width:50px;
+}
+
+.hamburgerIcon {
+  width: 50px;
 }
 
 .menu {
