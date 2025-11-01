@@ -82,11 +82,10 @@ section {
 .hero {
   position: relative;
   flex-direction: row;
-  align-items:flex-start;
+  align-items: center;
   justify-content: center;
   gap: 35px;
   z-index: 10;
-  margin-top: 180px;
 }
 
 .backgroundImage {
@@ -96,8 +95,8 @@ section {
   /* background-image: url("https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2F742779555441%2Fcover%3F676e729b-96af-442a-9780-66b154ba7109&width=1024");
      */
      background-image: url("Icons/backgroudImage.png");
-  background-size:contain;
-  background-position-y: -600px;
+  background-size:cover;
+  background-position-y: -700px;
   background-repeat: no-repeat;
   filter:blur(5px) brightness(38%);
 
@@ -138,7 +137,7 @@ section {
 .albumInfoDiv {
   justify-content: flex-start;
   flex-direction: column;
-  height:fit-content;
+
   gap:10px;
   
 }
