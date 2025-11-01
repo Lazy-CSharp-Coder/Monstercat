@@ -10,6 +10,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /* BODY */
@@ -82,8 +83,8 @@ section {
 .albumInfoDiv {
   justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
-  gap:0;
+
+  gap:10px;
   
 }
 
@@ -114,7 +115,7 @@ section {
   background-color: #50A584;
   font-family: var(--primaryFontFamily);
   font-size : 14px;
-  border:none;
+  border: 2px solid #50A584;
 }
 
 .shareButton {
