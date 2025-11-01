@@ -85,7 +85,7 @@ section {
 .albumArtistText {
   font-size : 28px;
   color:white;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 /* FOOTER */
