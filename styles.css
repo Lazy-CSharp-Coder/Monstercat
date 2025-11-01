@@ -22,8 +22,11 @@
 
 body {
   margin: 0;
-  background-color: gray;
-  background-image: url("'https://cdx.monstercat.com?encoding=webp&amp;url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2FMCLP017%2Fcover%3F2ee434f2-4499-4c30-a937-4aec2b4ac1fc&amp;width=1024");
+  position:relative;
+
+ 
+  background-color: black;
+
 }
 
 /* HEADER */
@@ -68,6 +71,7 @@ li {
 
 /* MAIN */
 
+
 section {
   height: 100vh;
 }
@@ -79,6 +83,13 @@ section {
   gap:50px;
 
 
+}
+
+.backgroundImage {
+  position : absolute;
+  background-image: url('https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2F742779555441%2Fcover%3F676e729b-96af-442a-9780-66b154ba7109&width=1024');
+  background-size: contain;
+  background-position-y: -350px;
 }
 
 .albumInfoDiv {
