@@ -83,6 +83,10 @@ section {
   
 }
 
+.coverImage {
+  width: 480px;
+}
+
 .albumTitleText {
   font-family: var(--primaryFontFamily);
   font-size: 48px;
@@ -119,8 +123,8 @@ section {
 }
 
 .albumButtonWrapper {
-  gap : 3px;
-  
+  gap : 8px;
+
 }
 /* FOOTER */
 
