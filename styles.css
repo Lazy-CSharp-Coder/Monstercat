@@ -7,6 +7,10 @@
   font-style: normal; /* Optional: Specify font style */
 }
 /*  Bruk klasser (class) i CSS istedet for id */
+* {
+  padding: 0;
+  margin: 0;
+}
 
 /* BODY */
 
@@ -74,17 +78,24 @@ section {
 .albumInfoDiv {
   justify-content: flex-start;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap:0;
+  
 }
 
 .albumTitleText {
   font-family: var(--primaryFontFamily);
   font-size: 48px;
+  color: transparent;
+  -webkit-text-stroke-width : 2px;
+  -webkit-text-stroke-color: white;
 }
 
 .albumArtistText {
+  font-family: var(--primaryFontFamily);
   font-size : 28px;
   color:white;
+
   /* font-weight: bold; */
 }
 
