@@ -116,7 +116,7 @@ left: 0;
   font-size: 18px;
   gap:0;
  writing-mode: sideways-lr;
-  justify-content: start;
+  justify-content: flex-end
   
  
 }
