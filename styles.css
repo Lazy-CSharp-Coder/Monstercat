@@ -182,6 +182,7 @@ section {
   font-family: var(--primaryFontFamily);
   font-size : 14px;
   border: 2px solid #50A584;
+  align-items: center;
 }
 
 .playIconWhite {
