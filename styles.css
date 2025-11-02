@@ -142,10 +142,8 @@ section {
   gap:0;
    writing-mode: sideways-lr;
   justify-content: flex-end;
-  
-  
- 
 }
+
 .albumInfoDiv {
   justify-content: center;
   flex-direction: column;
