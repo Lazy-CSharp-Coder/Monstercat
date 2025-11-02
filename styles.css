@@ -55,7 +55,7 @@ header {
   padding-right: 28px;
 }
 
-.menuImg {
+.menuExitImg {
   width: 50px;
 }
 
@@ -90,13 +90,13 @@ header {
 .slideInRightAnim 
 {
   animation-name: slideInRight;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
 @keyframes slideInRight {
-  0% { transform: translateX(3000);}
+  0% { transform: translateX(500px);}
   100% { transform : translateX(0);}
 }
 

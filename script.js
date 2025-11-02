@@ -23,3 +23,6 @@ function hamburgerToggle()
 
 const hamburgerIcon = document.querySelector("#hamburgerIcon");
 hamburgerIcon.addEventListener("click", hamburgerToggle);
+
+const menuExitImg = document.querySelector("#menuExitImg");
+menuExitImg.addEventListener("click", hamburgerToggle);
