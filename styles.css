@@ -370,6 +370,13 @@ section {
   margin-top: 40px;
 
 }
+
+.streamDiv {
+  display: grid;
+  grid-template-columns: 20em 10em 10em 10em 10em 10em;
+  border: 1px solid white;
+  
+}
 /* FOOTER */
 
 footer {
