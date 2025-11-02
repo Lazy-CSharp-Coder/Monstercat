@@ -162,6 +162,12 @@ section {
   /* font-weight: bold; */
 }
 
+.uppeerSectionContainerDiv {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .playNowButton {
   width: 213px;
   height: 53px;
