@@ -51,8 +51,9 @@ header {
   width: 32px;
 }
 
-.logoImg {
-  width: 50px;
+.monsterLogoMenu 
+{
+   height: 64px;
 }
 
 .closeMenuImg {
