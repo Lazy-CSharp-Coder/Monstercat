@@ -14,9 +14,16 @@ function hamburgerToggle()
     }
     else
     {
-        slideInMenuNav.classList.add("hide");
+       
         slideInMenuNav.classList.remove("flex");
         slideInMenuNav.classList.remove("slideInRightAnim");
+        slideInMenuNav.classList.add("slideOutRightAnim");
+        slideInMenuNav.addEventListener("animationend", function() 
+        {
+            slideInMenuNav.classList.add("hide");
+            slideInMenuNav.classList.remove("slideOutRightAnim");
+        }, {once: true});
+
         isHamburgerVisible = false;
 
     }

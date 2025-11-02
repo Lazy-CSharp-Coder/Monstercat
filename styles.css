@@ -89,17 +89,29 @@ header {
  
 }
 
-.slideInRightAnim 
-{
+.slideInRightAnim {
   animation-name: slideInRight;
   animation-duration: 0.5s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
 
+.slideOutRightAnim {
+
+  animation-name: slideOutRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+}
+
 @keyframes slideInRight {
   0% { transform: translateX(500px);}
   100% { transform : translateX(0);}
+}
+@keyframes slideInRight {
+  0% { transform: translateX(0);}
+  100% { transform : translateX(500px);}
 }
 
 
