@@ -373,7 +373,7 @@ section {
 
 .streamDiv {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto repeat(5, auto);
   /* column-gap: 30px; */
   height: fit-content;
   align-items: center;
@@ -390,12 +390,18 @@ section {
   /* grid-column-start: 1; 
   grid-column-end: 2;   */
   border: 1px solid white;
+
 }
 
 .musicIcons {
-  padding: 20px;
-  height: 25px;
-  background-color: black;
+  /* padding: 20px 0; */
+  height:40px;
+  padding-top: 7px;
+  padding-bottom : 8px;
+  padding-left : 10px;
+  padding-right: 10px;
+
+  /* background-color: black; */
   border: 1px solid white;
 
 }
