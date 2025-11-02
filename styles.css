@@ -55,6 +55,11 @@ header {
   padding-right: 28px;
 }
 
+.closeMenuIcon {
+  width: 32px;
+}
+  
+
 ul {
   display: flex;
   justify-content: center;
