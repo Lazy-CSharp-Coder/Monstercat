@@ -1,5 +1,20 @@
-let isHamburgerVisible = false;
+let isPlaying = false;
 
+function playButtonToggle()
+{
+    const playButton = document.querySelector("#playButton");
+    if(isPlaying)
+    {
+
+    }
+    else
+    {
+
+    }
+}
+
+
+let isHamburgerVisible = false;
 
 function hamburgerToggle()
 {
