@@ -82,8 +82,9 @@ section {
 .hero {
   position: relative;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  margin: 10em 0;
   gap: 35px;
   z-index: 10;
 }
@@ -105,11 +106,16 @@ section {
 
 }
 
+.uppeerSectionContainerDiv {
+  
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* .sidewaysText {
 
   transform: rotate(270deg);
-
-
 
 } */
 
@@ -118,9 +124,10 @@ section {
 }
 
 .coverTextWrapper {
+
   flex-direction: row;
   align-items: center;
-  
+  justify-content: center;
 
 }
 
@@ -129,7 +136,7 @@ section {
   color: #50A584;
   font-size: 18px;
   gap:0;
- writing-mode: sideways-lr;
+   writing-mode: sideways-lr;
   justify-content: flex-end
   
  
@@ -162,11 +169,7 @@ section {
   /* font-weight: bold; */
 }
 
-.uppeerSectionContainerDiv {
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .playNowButton {
   width: 213px;
