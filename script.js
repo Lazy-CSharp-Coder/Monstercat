@@ -2,17 +2,20 @@ let isPlaying = false;
 
 function playButtonToggle()
 {
-    const playButton = document.querySelector("#playButton");
+    const playIcon = document.querySelector("#playButton");
+    const pauseIcon = document.querySelector("#pauseIcon");
     if(isPlaying)
     {
-
+        pauseIcon.classList.add("hide");
     }
     else
     {
-
+        pauseIcon.classList.remove("hide");
     }
 }
 
+const playButton = document.querySelector("#playButton");
+playButton.addEventListener("click", playButtonToggle);
 
 let isHamburgerVisible = false;
 
