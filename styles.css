@@ -79,7 +79,9 @@ header {
   justify-content: center;
   background-color: black;
   height: auto;
-  top: 100px;
+  position: absolute;
+  top : 65px;
+  right: 0;
 }
 
 .socialMediaDiv{
@@ -171,8 +173,8 @@ section {
   width:100%;
   height: 100%;
   position: absolute;
-  /* background-image: url("https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2F742779555441%2Fcover%3F676e729b-96af-442a-9780-66b154ba7109&width=1024");
-     */
+  background-image: url("https://cdx.monstercat.com?encoding=webp&url=https%3A%2F%2Fwww.monstercat.com%2Frelease%2F742779555441%2Fcover%3F676e729b-96af-442a-9780-66b154ba7109&width=1024");
+    
      background-image: url("Icons/backgroudImage.png");
   background-size:cover;
   background-position-y: -700px;
