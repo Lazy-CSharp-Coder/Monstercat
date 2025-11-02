@@ -89,7 +89,9 @@ header {
   
  
 }
-
+.greaterThanIcon {
+  height: 15px;
+}
 .upperHalfWrapperDiv {
   flex-direction: column;
   gap: 50px;
@@ -129,11 +131,11 @@ header {
 
 .socialMediaDiv{
   padding: 20px 0px;
-  gap: 10px;
+  gap: 30px;
 }
 
 .socialMediaIcon {
-  width: 15px;
+  width: 20px;
 }
 
 
