@@ -82,6 +82,11 @@ header {
   top: 100px;
 }
 
+.socialMediaIcon {
+  width: 10px;
+}
+
+
 .buttonNavDiv {
   align-items: center;
   gap:15px;
