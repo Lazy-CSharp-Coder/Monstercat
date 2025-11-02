@@ -87,7 +87,7 @@
   }
   
   
-  .playNowButton {
+  .playButton {
     width: 213px;
     height: 53px;
     color:#f1f1f1;
@@ -100,7 +100,7 @@
     gap: 10px;
   }
   
-  .playIcon, .shareIcon {
+  .playIcon, .shareIcon, .pauseIcon {
     width : 18px;
   }
   
