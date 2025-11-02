@@ -1,3 +1,5 @@
+@import "../styles.css";
+
 .coverSection {
     /* position: relative; */
     flex-direction: column;
