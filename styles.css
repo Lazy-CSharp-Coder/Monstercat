@@ -35,6 +35,7 @@ body {
 h1 {
   font-size: 45px;
   margin-top: 120px;
+  margin-bottom: 40px;
 }
 
 /* HEADER */
@@ -86,8 +87,6 @@ header {
 
   flex-direction: column;
   justify-content: space-between;
-
-
   padding: 20px 40px;
   background-color: black;
   height: 100%;
@@ -96,9 +95,8 @@ header {
   top : 0;
   right: 0;
   z-index: 100;
-  
- 
 }
+
 .greaterThanIcon {
   height: 15px;
 }
