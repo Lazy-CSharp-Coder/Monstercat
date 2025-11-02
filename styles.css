@@ -414,6 +414,10 @@ section {
 
 
 .trackListDiv {
+ 
+}
+
+.tracks {
   display: grid;
   width: 100%;
   grid-template-columns: 10fr 10fr 200fr 10fr 10fr;
