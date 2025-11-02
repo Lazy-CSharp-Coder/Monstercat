@@ -43,7 +43,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 6em;
   background-color:transparent;
   
 
@@ -295,7 +295,7 @@ section {
 }
 
 .coverImage {
-  width: 480px;
+  width: 40em;
 }
 
 .albumTitleText {
