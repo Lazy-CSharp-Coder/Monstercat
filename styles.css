@@ -26,8 +26,9 @@ body {
   /* position:relative; */
 
   /* position: relative; */
+  background-color: black;
   font-family: var(--primaryFontFamily);
-  background-color:black;
+
   color: white;
 
 }
@@ -239,6 +240,7 @@ section {
   background-repeat: no-repeat;
   filter:blur(5px) brightness(38%);
 
+
   
   z-index: -1;
 
@@ -408,6 +410,13 @@ section {
   /* background-color: black; */
   border: 1px solid white;
 
+}
+
+
+.trackListDiv {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 20fr 10fr 10fr;
 }
 /* FOOTER */
 
