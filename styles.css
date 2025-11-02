@@ -38,7 +38,7 @@ header {
   padding: 20px 40px;
   background-color:transparent;
   
-  z-index: 10;
+
   position: sticky;
   top: 0;
 }
@@ -80,8 +80,9 @@ header {
   background-color: black;
   height: auto;
   position: absolute;
-  top : 65px;
+  top : 5px;
   right: 0;
+  z-index: 100;
 }
 
 .socialMediaDiv{
