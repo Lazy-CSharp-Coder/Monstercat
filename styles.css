@@ -120,6 +120,11 @@ section {
   height: 100vh;
 }
 
+.socialMediaDesktopNav {
+  flex-direction: column;
+  position: fixed;
+  right: 20px;
+}
 
 /* FOOTER */
 

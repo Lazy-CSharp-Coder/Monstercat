@@ -1,7 +1,6 @@
 @import "../styles.css";
 @import "./animations.css";
 
-
 .monsterLogoMenu 
 {
    height: 64px;
@@ -40,6 +39,7 @@
 .greaterThanIcon {
   height: 15px;
 }
+
 .upperHalfWrapperDiv {
   flex-direction: column;
   gap: 50px;
