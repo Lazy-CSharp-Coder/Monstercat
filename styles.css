@@ -194,6 +194,13 @@ section {
   width : 18px;
 }
 
+.shareIcon:hover {
+  background-color: white;
+  color: black;
+  .hoverImage { display: flex};
+
+}
+
 .shareButton {
   font-family: var(--primaryFontFamily);
   width: 153px;
