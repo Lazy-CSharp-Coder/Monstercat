@@ -93,12 +93,15 @@ header {
   font-family: var(--primaryFontFamily);
   font-size: 14px;
   color:white;
-  padding: 8px 16px;
+
 }
 
 .signInButton {
+  padding: 8px 16px;
   border: 1px solid white;
 }
+
+
 
 .signInButton:hover {
   color: black;
