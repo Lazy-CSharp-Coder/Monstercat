@@ -373,13 +373,24 @@ section {
 
 .streamDiv {
   display: grid;
-  grid-template-columns: 10em 5em 50em 5em 5em 5em;
+  grid-template-columns: 10em 5em 5em 5em 5em 5em;
+  justify-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  width: fit-content;
   border: 1px solid white;
+
 
 }
 
+.playerIcon {
+  height: 35px;
+}
+
 .musicIcons {
-  height: 40px;
+  height: 25px;
+  background-color: black;
+
 }
 /* FOOTER */
 
