@@ -172,6 +172,9 @@ section {
   /* font-weight: bold; */
 }
 
+.hoverImage {
+  display: none;
+}
 
 
 .playNowButton {
@@ -187,7 +190,7 @@ section {
   gap: 10px;
 }
 
-.playIconWhite, .shareIconWhite {
+.playIconWhite, .shareIcon {
   width : 18px;
 }
 
