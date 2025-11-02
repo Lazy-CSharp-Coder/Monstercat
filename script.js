@@ -7,11 +7,13 @@ function hamburgerToggle()
     if(!isHamburgerVisible)
     {    
         slideInMenuNav.classList.remove("hide");
+        isHamburgerVisible = true;
 
     }
     else
     {
-        slideInMenuNav.checkVisibility.add("hide");
+        slideInMenuNav.classList.add("hide");
+        isHamburgerVisible = false;
 
     }
 
