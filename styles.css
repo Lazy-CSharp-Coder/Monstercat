@@ -89,6 +89,17 @@ header {
  
 }
 
+.upperHalfWrapperDiv {
+  flex-direction: column;
+  gap: 50px;
+}
+
+.lowerHalfWrapperDiv {
+  flex-direction: column;
+  gap: 10px;
+}
+
+
 .slideInRightAnim {
   animation-name: slideInRight;
   animation-duration: 0.5s;
@@ -109,7 +120,7 @@ header {
   0% { transform: translateX(500px);}
   100% { transform : translateX(0);}
 }
-@keyframes slideInRight {
+@keyframes slideOutRight {
   0% { transform: translateX(0);}
   100% { transform : translateX(500px);}
 }
