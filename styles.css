@@ -416,7 +416,7 @@ section {
 .trackListDiv {
   display: grid;
   width: 100%;
-  grid-template-columns: 1fr 1fr 20fr 10fr 10fr;
+  grid-template-columns: 10fr 10fr 200fr 10fr 10fr;
 }
 /* FOOTER */
 
