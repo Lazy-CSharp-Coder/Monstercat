@@ -245,7 +245,7 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1000px;
+  /* gap: 1000px; */
 
 }
 
@@ -257,6 +257,7 @@ section {
 
 .releaseText {
   color:#fdfdfd;
+ 
 }
 
 .coverTextWrapper {
@@ -264,8 +265,12 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
 
+}
+
+.coverReleaseDiv {
+  justify-content: last baseline;
 }
 
 .sideWaysDiv {
@@ -274,6 +279,7 @@ section {
   font-size: 18px;
   font-style: italic;
   gap:0;
+  
    writing-mode: sideways-lr;
   justify-content: flex-end;
 }
