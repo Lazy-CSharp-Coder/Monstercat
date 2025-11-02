@@ -184,6 +184,10 @@ section {
   border: 2px solid #50A584;
 }
 
+.playIconWhite {
+  width : 18px;
+}
+
 .shareButton {
   font-family: var(--primaryFontFamily);
   width: 153px;
