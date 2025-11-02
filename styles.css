@@ -82,6 +82,33 @@ header {
   top: 100px;
 }
 
+.buttonNavDiv {
+  align-items: center;
+  gap:15px;
+
+}
+
+.signInButton, .signUpButton {
+  background-color: black;
+  font-family: var(--primaryFontFamily);
+  font-size: 14px;
+  color:white;
+  padding: 8px 16px;
+}
+
+.signInButton {
+  border: 1px solid white;
+}
+
+.signInButton:hover {
+  color: black;
+  background-color: white;
+}
+
+.signUpButton {
+  border: none;
+}
+
 ul {
   display: flex;
   flex-direction: column;
