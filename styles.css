@@ -377,6 +377,10 @@ section {
   border: 1px solid white;
 
 }
+
+.musicIcons {
+  height: 40px;
+}
 /* FOOTER */
 
 footer {
