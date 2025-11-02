@@ -79,11 +79,28 @@ header {
   justify-content: center;
   background-color: black;
   height: auto;
-  position: absolute;
-  top : 5px;
+  position: fixed;
+  top : 65px;
   right: 0;
   z-index: 100;
+
+  animation-name: slideInRight;
+  animation-duration: 0.8s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+ 
 }
+
+.slideInRightAnim 
+{
+  
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(3000);}
+  100% { transform : translateX(0);}
+}
+
 
 .socialMediaDiv{
   padding: 20px 0px;
