@@ -83,6 +83,7 @@ header {
 }
 
 .socialMediaDiv{
+  padding: 20px 0px;
   gap: 10px;
 }
 
@@ -93,6 +94,7 @@ header {
 
 .buttonNavDiv {
   align-items: center;
+  justify-content: flex-start;
   gap:25px;
   padding: 10px 20px;
 
