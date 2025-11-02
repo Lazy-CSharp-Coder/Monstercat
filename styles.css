@@ -55,6 +55,10 @@ header {
   padding-right: 28px;
 }
 
+.menuImg {
+  width: 50px;
+}
+
 .closeMenuImg {
   width: 32px;
 }
@@ -66,6 +70,7 @@ header {
 .menuHeading {
   align-items: center;
   color:white;
+  font-family: var(--primaryFontFamily);
   font-size: 18px;
 }
 
