@@ -281,7 +281,7 @@ section {
   justify-content: center;
   flex-direction: column;
 
-  gap:10px;
+  gap:20px;
   
 }
 
@@ -358,6 +358,7 @@ section {
 
 .albumButtonWrapper {
   gap : 8px;
+  margin-top: 40px;
 
 }
 /* FOOTER */
