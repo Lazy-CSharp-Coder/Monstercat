@@ -210,6 +210,7 @@ li {
 main {
   display: flex;
   flex-direction: column;
+  width: 75%;
 
 }
 
@@ -223,9 +224,9 @@ section {
   align-items: center;
   justify-content: flex-start;
   margin-top: 10em;
-  gap: 35px;
+  /* gap: 35px; */
   z-index: 10;
-  width: 100%;
+
 }
 
 .backgroundImage {
@@ -239,9 +240,6 @@ section {
   background-position-y: -700px;
   background-repeat: no-repeat;
   filter:blur(5px) brightness(38%);
-
-
-  
   z-index: -1;
 
 }
@@ -414,7 +412,7 @@ section {
 
 .trackSection {
   flex-direction: column;
-  align-self: center;
+  align-self: flex-start;
 }
 
 
