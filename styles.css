@@ -373,9 +373,11 @@ section {
 
 .streamDiv {
   display: grid;
-  grid-template-columns: 10em 5em 5em 5em 5em 5em;
-  justify-items: center;
-  padding: 10px 20px;
+  grid-template-columns: auto auto auto auto auto auto;
+  /* column-gap: 30px; */
+  height: fit-content;
+  align-items: center;
+  /* padding: 20px 8px; */
   background-color: black;
   width: fit-content;
   border: 1px solid white;
@@ -384,12 +386,17 @@ section {
 }
 
 .playerIcon {
-  height: 35px;
+  height:40px;
+  /* grid-column-start: 1; 
+  grid-column-end: 2;   */
+  border: 1px solid white;
 }
 
 .musicIcons {
+  padding: 20px;
   height: 25px;
   background-color: black;
+  border: 1px solid white;
 
 }
 /* FOOTER */
