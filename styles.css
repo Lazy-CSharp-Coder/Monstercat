@@ -373,9 +373,9 @@ section {
 
 .streamDiv {
   display: grid;
-  grid-template-columns: 20em 10em 10em 10em 10em 10em;
+  grid-template-columns: 10em 5em 50em 5em 5em 5em;
   border: 1px solid white;
-  
+
 }
 /* FOOTER */
 
