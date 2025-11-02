@@ -82,8 +82,12 @@ header {
   top: 100px;
 }
 
+.socialMediaDiv{
+  gap: 10px;
+}
+
 .socialMediaIcon {
-  width: 10px;
+  width: 15px;
 }
 
 
