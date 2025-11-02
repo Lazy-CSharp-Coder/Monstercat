@@ -1,4 +1,5 @@
 @import "./css/navSideMenu.css";
+@import "./css/trackSection.css";
 
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
@@ -92,32 +93,6 @@ li {
   display: flex;
 }
 
-
-
-/* MAIN */
-
-main {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-
-}
-
-section {
-  height: 100vh;
-}
-
-.hero {
-  /* position: relative; */
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin-top: 10em;
-  /* gap: 35px; */
-  z-index: 10;
-
-}
-
 .backgroundImage {
   width:100%;
   height: 100%;
@@ -133,190 +108,20 @@ section {
 
 }
 
-.uppeerSectionContainerDiv {
-  
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  /* gap: 1000px; */
+/* MAIN */
 
-}
-
-/* .sidewaysText {
-
-  transform: rotate(270deg);
-
-} */
-
-.releaseText {
-  color:#fdfdfd;
- 
-}
-
-.coverTextWrapper {
-
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-
-}
-
-.coverReleaseDiv {
- gap: 10px;
-}
-
-.sideWaysDiv {
-  
-  font-family: "Montserrat";
-  color: #50A584;
-  font-size: 18px;
-  font-style: italic;
-  gap:0;
-  
-   writing-mode: sideways-lr;
-  justify-content: flex-start;
-}
-
-.albumInfoDiv {
-  justify-content: center;
-  flex-direction: column;
-
-  gap:20px;
-  
-}
-
-.coverImage {
-  width:50em;
-}
-
-.albumTitleText {
-  font-family: var(--primaryFontFamily);
-  font-size: 48px;
-  color: transparent;
-  -webkit-text-stroke-width : 2px;
-  -webkit-text-stroke-color: white;
-}
-
-.albumArtistText {
-  font-family: var(--primaryFontFamily);
-  font-size : 28px;
-  color:white;
-
-  /* font-weight: bold; */
-}
-
-.hoverImage {
-  display: none;
-}
-
-.defaultImage {
-  display: flex;
-}
-
-
-.playNowButton {
-  width: 213px;
-  height: 53px;
-  color:#f1f1f1;
-  background-color: #50A584;
-  font-family: var(--primaryFontFamily);
-  font-size : 14px;
-  border: 2px solid #50A584;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.playIconWhite, .shareIcon {
-  width : 18px;
-}
-
-.shareButton:hover {
-  background-color: white;
-  color: black;
-  .hoverImage { display: flex};
-  .defaultImage { display: none;}
-
-}
-
-.shareButton {
-  font-family: var(--primaryFontFamily);
-  width: 153px;
-  height : 53px;
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-.shareIconWhite {
-
-}
-
-
-.albumButtonWrapper {
-  gap : 8px;
-  margin-top: 40px;
-
-}
-
-.streamDiv {
-  display: grid;
-  grid-template-columns: auto repeat(5, auto);
-  /* column-gap: 30px; */
-  height: fit-content;
-  align-items: center;
-  /* padding: 20px 8px; */
-  background-color: black;
-  width: fit-content;
-  border: 1px solid white;
-
-
-}
-
-.playerIcon {
-  height:80px;
-  padding: 20px 20px;
-  /* grid-column-start: 1; 
-  grid-column-end: 2;   */
-  border: 1px solid white;
-
-}
-
-.musicIcons {
-  /* padding: 20px 0; */
-  height:80px;
-  padding-top: 30px;
-  padding-bottom : 30px;
-  padding-left : 30px;
-  padding-right: 30px;
-
-  /* background-color: black; */
-  border: 1px solid white;
-
-}
-
-.trackSection {
-  flex-direction: column;
-  align-self: flex-start;
-}
-
-
-.trackListDiv {
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
- 
+  width: 75%;
+
 }
 
-.tracks {
-  display: grid;
-  width:max-content;
-  grid-template-columns: repeat(5, auto);
+section {
+  height: 100vh;
 }
+
+
 /* FOOTER */
 
 footer {
