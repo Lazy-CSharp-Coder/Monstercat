@@ -7,10 +7,14 @@ function playButtonToggle()
     if(isPlaying)
     {
         pauseIcon.classList.add("hide");
+        playIcon.classList.remove("hide");
+        isPlaying = false;
     }
     else
     {
         pauseIcon.classList.remove("hide");
+        playIcon.classList.add("hide");
+        isPlaying = true;
     }
 }
 
