@@ -35,9 +35,7 @@ function hamburgerToggle()
 
     }
     else
-    {
-       
-     
+    { 
         slideInMenuNav.classList.remove("slideInRightAnim");
         slideInMenuNav.classList.add("slideOutRightAnim");
         slideInMenuNav.addEventListener("animationend", function() 
