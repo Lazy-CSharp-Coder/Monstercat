@@ -2,7 +2,7 @@ let isPlaying = false;
 
 function playButtonToggle()
 {
-    const playIcon = document.querySelector("#playButton");
+    const playIcon = document.querySelector("#playIcon");
     const pauseIcon = document.querySelector("#pauseIcon");
     if(isPlaying)
     {
