@@ -101,6 +101,7 @@ li {
      background-image: url("Icons/backgroudImage.png");
   background-size:cover;
   background-position-y: -700px;
+
   background-repeat: no-repeat;
   filter:blur(5px) brightness(38%);
   z-index: -1;
